@@ -1,8 +1,13 @@
 A not so minimal guide to `readr`, `dplyr` and `tidyr`
 ================
-Seevasant Indran
-16 November, 2018
+Seevasant Indran  
+09 October, 2018  
 
+<details>
+  <summary>
+Table of contents
+  </summary>  
+   
 -   [Why Data Manipulation](#why-data-manipulation)
     -   [Examples of **Messy** vs **Tidy** data](#examples-of-messy-vs-tidy-data)
     -   [A gapminder tidy `<-` untidy walkthough](#a-gapminder-tidy---untidy-walkthough)
@@ -31,7 +36,6 @@ Seevasant Indran
 -   [The `tidyr` Functions](#the-tidyr-functions)
     -   [Important `tidyr` for data manipulation](#important-tidyr-for-data-manipulation)
 -   [`tidyr::`](#tidyr)
-    -   [Some Data](#some-data)
     -   [gather()](#gather-1)
     -   [spread()](#spread-1)
 -   [A `dplyr::` walkthrough](#a-dplyr-walkthrough-1)
@@ -56,7 +60,11 @@ Seevasant Indran
     -   [anti\_join() part 2](#anti_join-part-2)
 -   [Ending credits: gapminder2](#ending-credits-gapminder2)
 
-<details open> <summary> Packages required </summary>
+</details>  
+
+  
+
+<details> <summary> Packages required </summary>
 
 -   [tidyverse](http://tidyverse.tidyverse.org/) (includes [ggplot2](http://ggplot2.tidyverse.org/), [dplyr](http://dplyr.tidyverse.org/), [tidyr](http://tidyr.tidyverse.org/), [readr](http://readr.tidyverse.org/), [tibble](http://tibble.tidyverse.org/))
 -   [gapminder](https://cran.r-project.org/web/packages/gapminder/index.html)
